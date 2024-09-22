@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
     res.send('Hello from Node API Server Updated');
 });
 
-mongoose.connect("mongodb+srv://qtrandev:xRw0mZzFiShsXtAn@nodeapi.fipny.mongodb.net/Node-API?retryWrites=true&w=majority&appName=NodeAPI", {
+mongoose.connect("mongodb+srv://<user>:<password>@nodeapi.fipny.mongodb.net/Node-API?retryWrites=true&w=majority&appName=NodeAPI", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
